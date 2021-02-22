@@ -1,0 +1,78 @@
+.accordion {
+  background-color: white;
+  cursor: pointer;
+  padding: 8px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin-top: 20px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+  background-color: white;
+}
+
+.gender input,
+.size input {
+  margin-left: 10px;
+}
+.gender label,
+.size label {
+  margin-right: 10px;
+  margin-left: 3px;
+}
+.linefilter {
+  background-color: #f1f1f1;
+  width: 70%;
+  height: 1px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 20px;
+  color: white;
+}
+
+.applyfilter {
+  margin: 10px;
+  padding: 10px;
+  width: 30%;
+  border-radius: 12px;
+  font-size: 12px;
+  float: left;
+  background-color: teal;
+}
+
+.applyfilter :hover,
+.applyfilter :active,
+.applyfilter :focus {
+  background-color: teal;
+}
+
+.filterpanel {
+  width: 299px;
+}
+
+.filterpanel a {
+  padding: 20px;
+  width: 70%;
+  font-size: 14px;
+  margin-left: 180px;
+}
+
+.filterpanel a:hover {
+  color: teal;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  padding-top: 10px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
